@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    font-size: 14pt;
+    gap: 5px;
+}
+.box label{
+    margin-left: 2px;
+}
+.box input{
+    height: 50px;
+    width: 100%;
+    font-size: 14pt;
+    padding-left: 2px;
+}
